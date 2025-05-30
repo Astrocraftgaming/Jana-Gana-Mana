@@ -1,0 +1,13 @@
+.title{
+  color:orange;
+  -webkit-text-stroke:1px black;
+}
+.jana{
+  -webkit-text-stroke:1px black;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom left, orange, white, green);
+    background-attachment: fixed;
+}
