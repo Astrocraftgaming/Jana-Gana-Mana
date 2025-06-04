@@ -1,9 +1,21 @@
 .title{
   color:orange;
   -webkit-text-stroke:1px black;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 75;
 }
 .jana{
   -webkit-text-stroke:1px black;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 75;
 }
 body{
     margin: 0;
@@ -31,9 +43,37 @@ body{
   border-radius:50px;
   cursor:pointer;
   margin-top:1px;
+  transition:background-color 0.15s,color 0.15s;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 75;
+}
+.anthem{
+  transition:text-decoration 0.15s;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 75;
+}
+.anthem:hover{
+  text-decoration:underline;
+
+}
+.button:active{
+  background-color:white;
+  color:#b01b10;
 }
   body{
     margin: 0;
     padding: 0;
     background: linear-gradient(to bottom-left, orange, white, green);
 }
+
+
+
+
