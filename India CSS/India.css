@@ -18,10 +18,8 @@
     "wdth" 75;
 }
 body{
-    margin: 0;
-    padding: 0;
     background: linear-gradient(to bottom left, orange, white, green);
-    background-attachment: fixed;
+    min-height:100vh;
 }
 .title{
   color:orange;
